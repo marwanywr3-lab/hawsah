@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffd333"><meta name="description" content="حوسة! لعبة سوالف وذاكرة وشك للجمعات. مين المحوّس بينكم؟">
+  <title>حوسة! — مين حاس السالفة؟</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://hawsah-game.barboodmarwan.workers.dev; worker-src 'self'; object-src 'none'; base-uri 'self'">
+</head>
+<body>
+  <div class="page-dots" aria-hidden="true"></div>
+  <header class="site-header"><a href="#home" class="brand" aria-label="حوسة الرئيسية">حوسة<span>!</span></a><span class="header-note">لعبة تخلّي الواثق يشكّ</span><nav aria-label="التنقل الرئيسي"><button class="text-btn" data-action="rules">كيف نلعب؟ <span aria-hidden="true">↗</span></button><button class="icon-btn" data-action="sound" aria-label="تشغيل أو إيقاف صوت التنبيه" title="تنبيه المرحلة">♪</button></nav></header>
+  <main id="app" tabindex="-1"><p class="loading">نجهّز القعدة…</p></main>
+  <footer><span>صنعت للسوالف اللي ما تخلص.</span><a href="#admin">إدارة المحتوى</a><span class="footer-brand">حوسة! © ٢٠٢٦</span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal"><button class="dialog-close icon-btn" data-action="close-modal" aria-label="إغلاق">×</button><div id="modal-body"></div></dialog>
+  <noscript>تحتاج اللعبة إلى تفعيل JavaScript للعب وحفظ تقدمك.</noscript>
+</body>
+</html>
