@@ -8,3 +8,5 @@
 @media(max-width:600px){.hero{grid-template-columns:minmax(0,1fr)}.hero-copy{min-width:0}.hero h1{font-size:clamp(31px,10vw,42px)}.art{width:100%;max-width:350px}.highlight{max-width:100%}}
 
 .preparing-spinner{width:52px;height:52px;border:5px solid var(--yellow);border-top-color:var(--ink);border-radius:50%;margin:20px auto;animation:preparing-turn 1s linear infinite}.handoff progress{width:100%;max-width:360px;height:22px;accent-color:var(--ink)}@keyframes preparing-turn{to{transform:rotate(360deg)}}
+
+.story-difference{color:var(--ink);padding:1px 4px;border-radius:3px;font-weight:bold;box-decoration-break:clone}.original-detail{background:#ffd6df;border-bottom:3px solid #a72b4a}.alternate-detail{background:#b8edda;border-bottom:3px solid #24644c}
